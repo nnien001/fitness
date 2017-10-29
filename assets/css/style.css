@@ -6,6 +6,7 @@
 
 */
 
+
 nav {
 
 }
@@ -32,6 +33,7 @@ body {
 }
 
 /* column adjustments for responsive design */
+/*
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -44,15 +46,16 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
+*/
 
 /* header */
 #masthead {
 	background-color: white;
 	position: fixed;
 	text-align: center;
-	width: 100%;
+	border: 3px solid green;
 	z-index: 99;
+	width: 100%;
 
 }
 
@@ -120,3 +123,84 @@ body {
 
 }
 
+
+
+
+@media screen and (max-width: 980px)  {
+
+ 	.container {
+			width: 81%;
+		}
+
+		.main-section {
+			width: 55%;
+		
+		}
+		
+		.auth-image {
+			width: 100%;
+			height: auto;
+			
+		}
+
+
+@media screen and (max-width: 768px)  {
+
+	.container {
+		width: 95%;
+	}
+
+	.main-section {
+		width: 95%;
+		
+	}
+
+	.auth-image {
+		width: 50%;
+		height: auto;
+	}
+
+	.sidebar {
+		
+		max-width: 95%;
+		float: left;
+		
+	}
+	
+}
+
+@media screen and (max-width: 640px)  {
+	.container {
+		width: 100%;
+	}	
+
+	.auth-image {
+		width: 100%;
+		height: auto;
+	}
+
+	.sidebar {
+		max-width: 95%;
+		float: left;
+	}
+
+
+	#logo {
+		width: 100%;
+		float: center;
+	}
+
+	nav {
+		float: none;
+		margin-top: 0px;
+	
+	}
+	nav a {
+		margin-left: 8%;
+		padding-left: 8%;
+		
+	}
+
+	.main-section {
+	margin-top: 30px;
+}
