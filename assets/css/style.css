@@ -9,20 +9,19 @@
 
 nav {
 	text-align: right;
+	display: inline-block;
+	margin-left: 15px;
+	border: 1px solid #73AD21;  
+	
+	line-height: 18px;
+	float: right;
 
 }
+
 nav a {
-	color: #999;
-	text-decoration: none;
-	margin-left: 15px;
-	display: inline-block;
-	border-left: 1px solid #ffffff;
-	padding-left: 15px;
-	line-height: 18px;
+
 }
-nav a:first-child {
-	border-left: 0 none;
-}
+
 
 
 * {
@@ -34,7 +33,7 @@ body {
 }
 
 /* column adjustments for responsive design */
-
+/*
 .col-sm-1 {width: 8.33%;}
 .col-sm-2 {width: 16.66%;}
 .col-sm-3 {width: 25%;}
@@ -47,7 +46,7 @@ body {
 .col-sm-10 {width: 83.33%;}
 .col-sm-11 {width: 91.66%;}
 .col-sm-12 {width: 100%;}
-
+*/
 
 /* header */
 #masthead {
@@ -72,6 +71,14 @@ body {
 
 }
 
+#banner {
+	display: inline-block;
+	margin-left: 15px;
+	border: 1px solid #73AD21;
+	float: left;
+}
+
+
 .img-social {
 	max-width: 25px;
 	height: auto;
@@ -79,16 +86,18 @@ body {
 }		
 
 .banner-img {
-	max-width: 100%;
+	border: 1px solid #73AD21;  
+	max-width: 80%;	
 	height: auto;
 	margin: 10px;
-	padding: 10px;	
+	padding: 10px;
+	float: left;
 }
 
 .profile-img {
 
-	max-width: 100%;
-	height: auto;
+	width: auto;
+	max-height: 100%;
 	margin: 10px;
 	padding: 10px;
 	float: left;
