@@ -17,23 +17,21 @@ body {
 
 }
 
-.img-social {
+.social-img {
     max-width: 25px;
     height: auto;
 }
 
-.img-banner {
-    /* seems useless
-    width: auto;
-    height: 200px;
-    
+.banner-img {
     max-width: 100%;
-    */
     height: auto;
-    
+    /*    
     margin-top: 10px;
     float: left;
     margin-right: 25px;
+    */
+
+
 }
 
 .img-circle {
@@ -90,16 +88,24 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 
-
 .profile-img {
-
+/*
     width: auto;
     max-height: 100%;
+*/
+    max-width: 100%;
+    height: auto;    
     margin: 10px;
     padding: 10px;
     float: left;
 }
 
+
+.swolecat-img {
+    max-width: 100%;
+    height: auto;
+
+}
 
 #mainContainer {
     background-color: powderblue;
