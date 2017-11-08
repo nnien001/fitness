@@ -11,7 +11,7 @@ body {
 	background-color: white;
 	position: fixed;
 	text-align: center;
-	border: 3px solid green;
+	border: 3px solid red;
 	z-index: 99;
 	width: 100%;
 
@@ -63,7 +63,7 @@ li a {
 
 /*Hover state for top level links*/
 li:hover a {
-    background: #19c589;
+    background: red;
 }
 
 /*Style 'show menu' label button and hide it by default*/
@@ -136,16 +136,11 @@ input[type=checkbox]:checked ~ #menu{
     /*Make all menu links full width*/
     ul li, li a {
         width: 100%;
+        line-height: 34px;
     }
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
     }
 
-    .img-banner {
-        /* seems useless
-        max-width: 50%;
-        height: auto;
-            */
-    }
 }
