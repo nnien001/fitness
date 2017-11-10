@@ -18,10 +18,15 @@ body {
 }
 
 nav {
-    
+
 }
 
 .social-img {
+    max-width: 25px;
+    height: auto;
+}
+
+.menu-img {
     max-width: 25px;
     height: auto;
 }
